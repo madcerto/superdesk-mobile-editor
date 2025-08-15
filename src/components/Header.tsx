@@ -18,8 +18,8 @@ export default function Header() {
           border-neutral-primary-1 border-b-2 hover:border-neutral-primary-2 focus:border-primary-800 focus:outline-0
         "
       />
-      <button className="text-md text-red-800 font-bold p-1">CLOSE</button>
-      <button className="text-md text-primary-800 font-bold p-1 pr-2">SAVE</button>
+      <button className="text-md text-red-800 p-1">CLOSE</button>
+      <button className="text-md text-primary-800 p-1 pr-2">SAVE</button>
       <button className="rounded bg-purple-800 text-md text-neutral-primary-1 p-1 px-3">SEND</button>
     </div>
     <div className="bg-primary-200 h-10 sm:m-4 m-2 rounded-full flex items-center px-4 gap-2 font-mono text-xl">
